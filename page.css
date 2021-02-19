@@ -1,0 +1,30 @@
+body {
+    background-color: lightskyblue;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 340px;
+}
+
+th, td, hr {
+    border: 1px solid black;
+}
+
+.white-background {
+    background-color: white;
+    
+}
+.green-background {
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.white-background.left-align{
+    text-align: left;
+}

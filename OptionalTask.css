@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+}
+
+
+.hero {
+    background-color: pink;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+}
+.maincontent {
+    background-color: orange;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+}
+.sidebar {
+    background-color: lightgreen;
+    width: 50%;
+    height: 40%;
+    
+}
+.extra {
+    background-color: red;
+    width: 50%;
+    height: 60%;
+    align-items: center;
+}
+
+
+.sub-ending {
+    display: flex;
+    height: 100px;
+    text-align: center;
+}
+
+.images {
+    flex:2;
+    background-color: seagreen;
+}
+.posts {
+    flex:1;
+    background-color: pink;
+}
+
+.footer {
+    display: flex;
+    background-color: orange;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}

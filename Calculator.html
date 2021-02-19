@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div style="width: 25%; height: 500px; display: block; text-align: center; border: 5px solid black;">
+            <h1>Amount Calculator</h1>
+            <br>
+            <h3>Enter Bill Amount!</h3>
+            <label for="amount">$</label>
+            <input style="height:8%; width: 65%" type="number" name="amount" id="amount" placeholder="Bill Amount" min="1">
+            <br><br>
+            <h3>How many people are sharing the bill?</h3>
+            <input style="height:8%; width: 65%" type="number" name="people" id="people" placeholder="Number of People" style="width: 250px" min="1" defaultValue="1"><br><br><br>
+            <button style="height:10%; width: 35%; background-color: yellow;" onclick="calculate()">Calculate</button>
+            <h2 id="Res"></h2>
+        </div>
+    </center>
+<script src="Calculator.js"></script>
+</body>
+</html>

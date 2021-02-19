@@ -1,0 +1,37 @@
+.profile {
+    border-radius: 50%;
+}
+body {
+    background-image: url("background.jpg");
+    z-index: 1;
+}
+.tab {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+.tab :hover {
+    font-size: xx-large;
+}
+.links {
+    display: flex; 
+    justify-content: space-between;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: silver;
+    background-color: transparent;
+    text-decoration: underline;
+  }
